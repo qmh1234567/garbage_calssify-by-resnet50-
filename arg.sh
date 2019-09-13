@@ -1,8 +1,8 @@
 #  train
-python newrun.py --mode='train' --data_local='./../data_set/train_data_v2' --test_data_local='./../data_set/test_data' --train_local='./output/' --num_classes=40 --max_epochs=5
+python newrun.py --mode='train' --data_local='./../data_set/train_data_v2' --test_data_local='./test_data' --train_local='./output/' --num_classes=40 --max_epochs=5
 
 # test
-python newrun.py --mode='test' --data_local='./../data_set/train_data_v2' --test_data_local='./../data_set/test_data'  --train_local='./output/' --num_classes=40 --max_epochs=5
+python newrun.py --mode='test' --data_local='./../data_set/train_data_v2' --test_data_local='./test_data'  --train_local='./output/' --num_classes=40 --max_epochs=5
 
 
 # # new train
